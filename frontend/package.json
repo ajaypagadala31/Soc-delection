@@ -1,0 +1,39 @@
+{
+  "name": "sentinelx-frontend",
+  "version": "1.0.0",
+  "description": "SENTINEL-X SOC Detection & Response Platform - Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "clsx": "^2.1.0",
+    "dayjs": "^1.11.10",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.330.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.22.1",
+    "recharts": "^2.12.0",
+    "socket.io-client": "^4.7.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}
